@@ -31,6 +31,6 @@ Set-AzDefault -ResourceGroupName daniel.rodrigues_rg-00
 
 Deploy:
 ```
-New-AzResourceGroupDeployment -TemplateFile main.bicep
+New-AzResourceGroupDeployment -TemplateFile Bicep\main.bicep
 ```
 
