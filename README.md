@@ -1,3 +1,16 @@
+# Visual Studio / GIT
+
+Clone the repository
+```
+https://github.com/DanielAtenor/azure-lab/
+```
+
+Configure variables to be able to commit and sync changes
+```
+git config --global user.name "Daniel Rodrigues"
+git config --global user.email danibgc@gmail.com
+```
+
 # Bicep
 
 In the Visual Studio Code terminal, run the following command:
