@@ -1,4 +1,4 @@
-# Visual Studio / GIT
+# Configure Visual Studio with GIT
 
 Clone the repository
 ```
@@ -11,7 +11,7 @@ git config --global user.name "Daniel Rodrigues"
 git config --global user.email danibgc@gmail.com
 ```
 
-# Bicep
+# Deploy Bicep
 
 In the Visual Studio Code terminal, run the following command:
 ```
