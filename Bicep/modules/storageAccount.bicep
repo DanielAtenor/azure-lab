@@ -9,7 +9,7 @@ param environmentType string
 
 var storageAccountSkuName = (environmentType == 'prd') ? 'Standard_GRS' : 'Standard_LRS'
 
-resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
+resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   name: storageAccountName
   location: location
   sku: {
@@ -18,6 +18,7 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
   kind: 'StorageV2'
   properties: {
     accessTier: 'Hot'
+    isHnsEnabled: true
   }
 }
 
